@@ -36,7 +36,7 @@ Original Figma reference: [Design INDIGO Landing Page](https://www.figma.com/des
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/indigo-landing-page.git
+   git clone https://github.com/Karolart/IndigoArtistico.git
 
 2. Install dependencies:
 
