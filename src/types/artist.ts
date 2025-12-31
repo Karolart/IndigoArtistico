@@ -2,13 +2,20 @@ export type Category =
   | 'Music'
   | 'Circus'
   | 'Dance'
-  | 'Visual'
+  | 'Visual Arts'
   | 'Digital';
 
 export interface Artist {
   id: string;
   name: string;
   category: Category;
-  description: string;
-  pdf: string; // ruta en /public/pdfs
+
+  pdf: string;        // /public/pdfs/...
+  cover: string;      // /public/artists/...
+
+  description?: string;
+
+  whatsapp?: string;
+  instagram?: string;
+  facebook?: string;
 }
